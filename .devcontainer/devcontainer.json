@@ -1,6 +1,6 @@
 {
-  "name": "laravel-docker",    
-  "dockerComposeFile": ["../docker-compose.yml"],
+  "name": "laravel-docker",      
+  "dockerComposeFile": ["../docker-compose.yml"],  
   "service": "nginx",
   "settings": {
      "terminal.integrated.shell.linux": "/bin/bash"

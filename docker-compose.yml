@@ -24,12 +24,10 @@ services:
     restart: unless-stopped
     tty: true
     ports:
-      - "3306:3306"
-    volumes: 
-      - ./db:/var/lib/mysql  
+      - "3306:3306"      
     environment: 
-      MYSQL_DATABASE: homestead
-      MYSQL_USER: homestead
+      MYSQL_DATABASE: laravel
+      MYSQL_USER: root
       MYSQL_PASSWORD: secret
       MYSQL_ROOT_PASSWORD: secret
       SERVICE_TAGS: dev
